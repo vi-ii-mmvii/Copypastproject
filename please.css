@@ -1,8 +1,10 @@
+/* need to make general settings */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 
 
-/*header: nav*/
+/*header with nav*/
 nav{ 
     margin: 10px; 
     padding-bottom: 5vh; 
@@ -26,7 +28,7 @@ nav{
     border: 5px solid rgba(98, 165, 243, 0.484); 
 } 
 
-.g{ 
+.name-group{ 
     float: left; 
     margin-left: 70px; 
     margin-top: 5px; 
@@ -38,7 +40,7 @@ nav{
     margin-right: 140px; 
 } 
 
-
+/* the background image with text */
 .block1{
     position: relative;
     background-color: #343a40;
@@ -55,7 +57,8 @@ nav{
     top:0;
     opacity: .3;
 }
-
+/* sections with icons */
+/* adaptive */
 @media (min-width: 768px) {
     .block1{
         padding-top:12vh;
@@ -112,7 +115,7 @@ nav{
 
 
 
-/* make the space between */
+
 #icons {
     background-color:rgb(218, 218, 219);
     padding: 100px;
@@ -161,10 +164,8 @@ nav{
     line-height: 1.25;
   }
 
+/* Blocks with float of text and photos  */
 
-:root{  
-    --light-color: #f4f4f4;  
-}
 .falsebody { 
     font-family: Arial, sans-serif; 
     background-color: #f9f9f9; 
@@ -217,7 +218,7 @@ line-height: 1.5;
     padding-top: 70px; 
     padding-bottom: 30px; 
 } 
-/* Надпись сверху */ 
+/* Section with feedback*/ 
 .Threepersons_headline{ 
     text-align: center; 
     margin-bottom: 3rem !important; 
@@ -235,16 +236,16 @@ line-height: 1.5;
     margin: 5px 5px 5px 5px; 
     grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%; 
 } 
-/* железный человек див со всем  */ 
+
 .ironman{ 
     padding: 0px 10px; 
     grid-column: 3/7; 
 } 
-/* Странный ребенок див со всем */ 
+
 .kid{ 
     grid-column: 9/14; 
 } 
-/* Див с кошкой и всем */ 
+ 
 .cat{ 
     /* position: relative; 
     padding-left: -30px!important; */ 
@@ -256,13 +257,13 @@ line-height: 1.5;
     object-fit: cover; 
     box-shadow: 0 5px 5px 0 #adb5bd;
 } 
-/*  */ 
+
 .threepersons_names{ 
     font-size: 1.25rem; 
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 700; 
 } 
-/*  */ 
+
 .threepersons_text{ 
     font-weight: 300; 
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
@@ -272,7 +273,7 @@ line-height: 1.5;
     color: white; 
 } 
 
-/*footer*/
+/*Start of the footer*/
 .block3{ 
     background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg); 
     background-position: center;
